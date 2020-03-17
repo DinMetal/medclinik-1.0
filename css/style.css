@@ -1,11 +1,7 @@
 body {
-	background: #eee; 
-	margin:0px;
-	padding:0px;
 	max-width: 1000px;
-	margin: 0px auto;
+	margin: auto;
 	background-color: #E2E1E6;
-	max-width: 1000px;
 	min-width: 400px;
 }
 
@@ -20,7 +16,6 @@ header {
     background-image: url(microskop.jpeg);
     background-size: cover;
     background-position: inherit;
-	background-repeat: no-repeat;
 }
 
 header p {
@@ -55,10 +50,10 @@ footer {
 }
 
 .menustyle-style {
-	border: 1px dotted black;
+	border: 1px dotted;
 	border-color: #8E7CA2;
 	height: 55px;
-	margin: 0px auto;
+	margin: auto;
 	background-color: #C8B6DC;	
 }
 
@@ -135,20 +130,10 @@ footer {
 }
 
 .system-news {
-
-	text-align:left;
-	font-family: Arial;
-	color: #1F1E1A;
-
-}
-
-.system-news {
-
 	text-align:left;
 	font-family: Arial;
 	color: #1F1E1A;
 	flex-basis:75%;
-
 }
 
 
@@ -232,15 +217,19 @@ a.button21:active {
 	
 	.menustyle-style nav {
 		padding: 10px;
-		padding-left: 10px;
 	}
 
 	.menustyle-style nav  a{
-		padding: 0px;
+
 		height: 18px;
 		font-size: 16px;
-	}	
-	
+	}
+
+	.menustyle-style nav  a:link{
+		padding-left: 0.1px;
+		padding-right: 0.1px;
+	}
+
 	header img {
 		display: none;
 	}	
